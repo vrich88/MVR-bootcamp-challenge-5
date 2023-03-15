@@ -5,15 +5,15 @@ This repository is used to track the average working day hours of a user making 
 ## Usage
 Upon loading up the repository in a web browser, the user will be presented with the current date and time at the top of the screen along with a time block period covering the average working day hours between 9 Am and 5 PM. The user can select time blocks divided into 1 hour periods to enter the tasks/activities/events/meetings/etc and save them into local storage. The scheduler will also update teh time and background colors of the time blocks reflecting a past/present/future appearance to assist the user in focusing on completing the items they add into the scheduler. 
 
-[Deployed application]
+[Deployed application](https://vrich88.github.io/MVR-bootcamp-challenge-5/)
 
-![screenshot]
+![screenshot](./assets/images/Screenshot.png)
 
 ## Contributors
 Consulting and guidance used in creation of this repository include peers and resources (in no order) as follows:
-    •Matt Montiel
-    •Julie Schuab
-    •Rachel Solov
+    •Matt Montiel 
+    •Julie Schuab 
+    •Rachel Solov 
 
 ## License
 MIT License
