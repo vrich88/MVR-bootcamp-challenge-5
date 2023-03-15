@@ -1,13 +1,6 @@
 $(document).ready(function () {
-    // currentDateTime();
-    // setInterval(currentDateTime, 1000);
-    // ppfColoration();
-    // writeActivity();
-    // addActivity();
-    // });
     // variables within the wrapped call function
     let timeCount = dayjs().format("H"); /* console.log(timeCount); */
-
     // function to set & show the current date & time on the HTML
     function currentDateTime() {
         // pulls in the "real" date/time from dayjs for input into HTML
@@ -48,8 +41,8 @@ $(document).ready(function () {
     // function to write the local storage to the html elements
     function writeActivity() {
         $(".time-block").on("click", function () {
-            localStorage.getItem(activityPeriod);
-            activityContent
+            $(this).attr("id") = localStorage.getItem(activityPeriod);
+            $(this).children(".description").val(activityContent);
         })
     };
     currentDateTime();

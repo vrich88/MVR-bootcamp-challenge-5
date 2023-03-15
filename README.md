@@ -13,7 +13,7 @@ Upon loading up the repository in a web browser, the user will be presented with
 Consulting and guidance used in creation of this repository include peers and resources (in no order) as follows:
     •Matt Montiel 
     •Julie Schuab 
-    •Rachel Solov 
+    •Rachel Solov
 
 ## License
 MIT License
