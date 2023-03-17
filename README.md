@@ -14,6 +14,7 @@ Consulting and guidance used in creation of this repository include peers and re
     •Matt Montiel 
     •Julie Schuab 
     •Rachel Solov
+    •Daniel Cohen
 
 ## License
 MIT License

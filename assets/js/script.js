@@ -45,6 +45,13 @@ $(document).ready(function () {
             $(this).children(".description").val(activityContent);
         })
     };
+    // load saved local storage when open page/refreshing
+    $(".time-block").each(function () {
+        let activityPeriod = $(this).attr("id");
+        let activityContent = localStorage.getItem(activityPeriod);
+        $(this).children(".description").val(activityContent);
+    });
+    // call to activate functions
     currentDateTime();
     setInterval(currentDateTime, 1000);
     ppfColoration();
